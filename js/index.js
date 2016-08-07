@@ -32,7 +32,7 @@ $(document).ready(function() {
 });
 
 function changeColors(colorValue){
-  $('.quote-text, #author-text').css('color', colorValue)
+
   $('.container').css('background', colorValue)
   
 }

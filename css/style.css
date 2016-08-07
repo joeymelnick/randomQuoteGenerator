@@ -1,5 +1,9 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
 body{
   margin: 0;
+  font-family:'Raleway', sans-serif;
+    color: white;
 }
 
 button:focus {
@@ -27,8 +31,6 @@ button:focus {
 
 .quoteblock{
   width: 90%;
-  background: #9E9E9E;
-  border-radius: 10px; 
   min-height: 250px;
   margin: auto;
 }
@@ -52,6 +54,7 @@ button:focus {
   position: relative;
   top: 40px;
   font-size: 20px;
+
 }
 
 #author-text{
@@ -69,17 +72,23 @@ button:focus {
 
 #new-quote{
   float: right;
-  height: 21px;
+  padding: 5px 28px;
   position: relative;
   right: 25px;
-  border-radius: 3px;
-  border: solid black 1px;
+  border-radius: 25px;
+  background-color: rgba(255,255,255,0.25)
+
 }
 
 .contact-links {
   padding-top: 10px;
+  margin: 0 auto;
+  display: inline-block;
 }
 
+.contact{
+  color: white;
+}
 
 footer {
  position:fixed;
