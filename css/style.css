@@ -44,10 +44,10 @@ button:focus {
 
 
 .quote{
-  height: 215px;
+  height: 175px;
   text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
+ padding: 10% 5% 4% 5%;
+
   }
 
 .quote-text{
@@ -82,12 +82,15 @@ button:focus {
 
 .contact-links {
   padding-top: 10px;
-  margin: 0 auto;
+  left: 35%;
   display: inline-block;
+  position: fixed;
+  bottom: 40px;
 }
 
 .contact{
   color: white;
+  padding: 0 45px;
 }
 
 footer {
